@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-05T20:31:19 IST" name="Default suite" finished-at="2022-12-05T20:31:54 IST" duration-ms="35041">
+    <groups>
+      <group name="smoke">
+        <method signature="SignoutTest.logout()[pri:1, instance:TestCases.SignoutTest@4dbb42b7]" name="logout" class="TestCases.SignoutTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-12-05T20:31:19 IST" name="Default test" finished-at="2022-12-05T20:31:54 IST" duration-ms="35041">
+      <class name="TestCases.SignoutTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:TestCases.SignoutTest@4dbb42b7]" started-at="2022-12-05T20:31:18 IST" name="init" finished-at="2022-12-05T20:31:19 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:TestCases.SignoutTest@4dbb42b7]" started-at="2022-12-05T20:31:19 IST" name="startTest" finished-at="2022-12-05T20:31:19 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.SignoutTest.logout() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:TestCases.SignoutTest@4dbb42b7]" started-at="2022-12-05T20:31:19 IST" name="Setup" finished-at="2022-12-05T20:31:24 IST" duration-ms="5169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="logout()[pri:1, instance:TestCases.SignoutTest@4dbb42b7]" started-at="2022-12-05T20:31:24 IST" name="logout" finished-at="2022-12-05T20:31:37 IST" duration-ms="13362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestCases.SignoutTest@4dbb42b7]" started-at="2022-12-05T20:31:37 IST" name="afterMethod" finished-at="2022-12-05T20:31:37 IST" duration-ms="201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logout status=SUCCESS method=SignoutTest.logout()[pri:1, instance:TestCases.SignoutTest@4dbb42b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.SignoutTest@4dbb42b7]" started-at="2022-12-05T20:31:37 IST" name="teardown" finished-at="2022-12-05T20:31:54 IST" duration-ms="16282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="reportFlush()[pri:0, instance:TestCases.SignoutTest@4dbb42b7]" started-at="2022-12-05T20:31:54 IST" name="reportFlush" finished-at="2022-12-05T20:31:54 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+      </class> <!-- TestCases.SignoutTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
